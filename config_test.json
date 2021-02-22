@@ -1,0 +1,32 @@
+{
+  "config_files": [
+    {
+      "template_path" : "/home/ganbatte/Desktop/test/golang_replacer/templates_test",
+      "formed_template_path" : "/home/ganbatte/Desktop/test/golang_replacer/formed_test"
+    },
+    {
+      "template_path" : "/home/ganbatte/Desktop/test/golang_replacer/templates_test",
+      "formed_template_path" : "/home/ganbatte/Desktop/test/golang_replacer/formed_test"
+    }
+  ],
+  "variables_group": [
+    {
+      "group_name":"mysql",
+      "variables": [
+        "port=123=asf"
+      ]
+    },
+    {
+      "group_name":"redis",
+      "variables": [
+        "port=123"
+      ]
+    },
+    {
+      "group_name":"php",
+      "variables": [
+        "port=123"
+      ]
+    }
+  ]
+}

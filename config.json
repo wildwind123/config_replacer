@@ -1,0 +1,29 @@
+{
+  "env_config" : "./env",
+  "config_files": [
+    {
+      "template_path" : "./templates",
+      "formed_template_path" : "./formed"
+    }
+  ],
+  "variables_group": [
+    {
+      "group_name":"path",
+      "variables": [
+        "path=$$CMD(pwd)"
+      ]
+    },
+    {
+      "group_name":"hostname",
+      "variables": [
+        "hostname=$$CMD(hostname)"
+      ]
+    },
+    {
+      "group_name":"env",
+      "variables": [
+        "env=$$ENV_CFG(THIS_ENV_VARIABLE)"
+      ]
+    }
+  ]
+}
